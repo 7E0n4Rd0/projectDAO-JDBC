@@ -23,7 +23,7 @@ public class Program2 {
 		list = departmentDao.findAll();
 		list.forEach(System.out::println);
 		
-		/*System.out.println("\n=== TEST 3: department insert ===");
+		System.out.println("\n=== TEST 3: department insert ===");
 		Department newDepartment = new Department(null, "Film");
 		departmentDao.insert(newDepartment);
 		System.out.println("Inserted! New ID = " + newDepartment.getId());
@@ -32,7 +32,7 @@ public class Program2 {
 		department = departmentDao.findById(1);
 		department.setName("Food");
 		departmentDao.update(department);
-		System.out.println("Update completed!");*/
+		System.out.println("Update completed!");
 		
 		System.out.println("\n=== TEST 5: department delete ===");
 		System.out.print("Enter id for delete test: ");
